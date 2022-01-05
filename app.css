@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.bg {
+    background-color: hsl(244, 38%, 16%);
+}
+
+.text-bright {
+    color: hsl(0, 0%, 100%);
+}
+
+.text-information-op75 {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.text-information-op6 {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+.primary {
+    color: hsl(277, 64%, 61%);
+}
+
+.bg-primary {
+    background-color: hsl(277, 64%, 61%);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.card {
+    max-width: 320px;
+}
+
+.br-10 {
+    border-radius: 10px;
+
+}
+
+.container {
+    padding: 25px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.text {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.inter {
+    font-family: Intera, sans-serif;
+}
+
+.lexend-deca {
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.mg-tp-20 {
+    margin-top: 20px;
+}
+
+.mg-bm-20 {
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.cross-center {
+    align-items: center;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.container-sm {
+    padding: 15px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.amount-of {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
+.amount {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.image-top {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.image-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.image-container .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
